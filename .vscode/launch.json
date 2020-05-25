@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "jlink",
+            "cwd": "${workspaceRoot}",
+            "executable": "build/zephyr/zephyr.elf",            
+            "name": "Debug (J-Link)",
+            "device": "nRF52832_xxAB",
+            "interface": "swd",
+        }
+    ]
+}

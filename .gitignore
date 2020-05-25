@@ -1,0 +1,8 @@
+build
+zephyr
+tools
+modules
+bootloader
+.west
+*.cortex-debug.*
+settings.json
